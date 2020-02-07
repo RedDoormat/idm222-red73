@@ -21,7 +21,53 @@ body {
     background-attachment: fixed;
 }
 
-div.menu {
-    float: left;
+
+.row { /*Sets up two columns*/
+    display: flex;
+}
+
+.menu { /*Left side of website*/
+    flex: 50%;
     background-color: #ffffff;
+    min-height: 100vh;
+    font-size: 4rem;
+    display: inline-block;
+}
+
+li a.menu-button {
+    display: block;
+    color: #000000;
+    margin: 3rem 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+li a:visited {
+    color: gray;
+}
+
+.logo {
+    flex: 50%;
+    text-align: center;
+    margin: auto 0;
+    max-width: 75%;
+    width: 75%;
+    height: auto;
+}
+
+li.welcome {
+    font-size: 6rem;
+    background-color: lightgray;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 7rem 0;
+    padding: 0;
 }
