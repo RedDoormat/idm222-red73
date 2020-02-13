@@ -78,12 +78,13 @@ body {
     .row { /*Sets up two rows*/
         display: flex;
         flex-direction: column-reverse;
+        min-height: 100vh;
     }
 
     .logo {
-        flex: 50%;
+        flex: 30%;
         text-align: center;
-        margin: 0;
+        margin: 2vh auto;
         max-width: 75%;
         min-width: 40%;
         width: 75%;
@@ -91,10 +92,10 @@ body {
     }
     
     .menu { /*Left side of website*/
-        flex: 50%;
+        flex: 70%;
         background-color: #ffffff;
-        min-height: 100vh;
-        font-size: 4vw;
+        height: 70vh;
+        font-size: 6vw;
         display: inline-block;
     }
 
@@ -116,7 +117,7 @@ body {
     }
 
     li.welcome {
-        font-size: 6vw;
+        font-size: 8vw;
         background-color: lightgray;
     }
 
