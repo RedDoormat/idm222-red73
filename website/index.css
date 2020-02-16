@@ -9,7 +9,7 @@
     src: url('fonts/Arvo.woff') format('woff');
 }
 
-html {
+html { /*More font stuff*/
     font-family: Arvo, serif;
     height: 100%;
     font-size: 100%;
@@ -83,7 +83,7 @@ body {
         flex-direction: column-reverse;
     }
 
-    .logo {
+    .logo { /*DO NOT FLEX, messes up size*/
         text-align: center;
         margin: 1vh auto;
         max-width: 80%;
@@ -92,8 +92,8 @@ body {
         height: auto;
     }
     
-    .menu { /*Left side of website*/
-        flex: 60%;
+    .menu { 
+        flex: 60%; /*sets up how much the bottom of the website space*/
         background-color: #ffffff;
         height: 40vh;
         font-size: 6vw;
