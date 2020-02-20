@@ -1,0 +1,48 @@
+/* Style Sheet for Portfolio website, Resume Page */
+
+* { /*Helps with math of margin and padding*/
+    box-sizing: border-box;
+}
+
+@font-face { /*Fonts*/
+    font-family: 'Arvo';
+    src: url('fonts/Arvo.woff') format('woff');
+}
+
+html { /*More font stuff*/
+    font-family: Arvo, serif;
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    background-image: url(images/dumontr_web-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.header {
+    background-color: lightgray;
+    text-align: center;
+    font-size: 100%;
+}
+
+.skills {
+    flex: 50%;
+    background-color: white;
+    font-size: 100%;
+    padding: 0 1rem;
+    margin: 0 .5rem;
+}
+
+.work  {
+    flex: 50%;
+    background-color: white;
+    font-size: 100%;
+    padding: 0 1rem;
+    margin: 0 .5rem;
+}
