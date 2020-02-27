@@ -50,6 +50,36 @@ body {
         margin: 0 .5rem;
     }
 }
+/*END COMPUTER MODE*/
+
+/*TABLET+MOBILE MODE*/
+@media screen and (max-width: 1049px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        background-color: lightgray;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    .skills {
+        background-color: white;
+        font-size: 100%;
+        padding: 0 1rem;
+        margin: 0 .5rem;
+    }
+
+    .work  {
+        background-color: white;
+        font-size: 100%;
+        padding: 0 1rem;
+        margin: 0 .5rem;
+    }
+}
+/*END TABLET+MOBILE MODE*/
 
 #menuToggle
 {
@@ -169,7 +199,7 @@ body {
   position: absolute;
   width: 300px;
   /* margin: -100px 0 0 -50px; */
-  margin: -100px 0 0 -300px;
+  margin: -100px 0 0 0px;
   padding: 50px;
   padding-top: 125px;
   
