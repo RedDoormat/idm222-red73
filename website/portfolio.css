@@ -21,8 +21,23 @@ body {
     background-attachment: fixed;
 }
 
-@media screen and (min-width: 1050px) {
-  
+img {
+  margin: 1rem;
+  text-align: center;
+  width: 30vw;
+}
+
+.content {
+  float: left;
+  margin: .5rem;
+  width: 32vw;
+  background-color: rgb(56, 56, 56);
+  box-shadow: .5rem 1rem rgb(175, 175, 175);
+}
+
+.caption {
+  color: #ededed;
+  text-align: center;
 }
 
 #menuToggle
