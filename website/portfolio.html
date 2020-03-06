@@ -10,9 +10,44 @@
     <link rel="stylesheet" href="portfolio.css"> <!--Main stylesheet-->
 </head>
 <body>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            <!--
+            Some spans to act as a hamburger.
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+            <a href="index.html"><li>Home</li></a>
+            <a href="portfolio.html"><li>Portfolio</li></a>
+            <a href="resume.html"><li>Resume</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            </ul>
+        </div>
+    </nav>
+      
     <header>
-
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html" class="current">Portfolio</a></li>
+        <!--  Highlight current page with .current  -->
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
     </header>
+
     <div class="content">
         <div class="image">
             
