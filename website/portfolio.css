@@ -21,23 +21,105 @@ body {
     background-attachment: fixed;
 }
 
-img {
-  margin: 1rem;
-  text-align: center;
-  width: 30vw;
-}
+/*Computer Layout*/
+@media screen and (min-width: 1050px) {
 
-.content {
-  float: left;
-  margin: .5rem;
-  width: 32vw;
-  background-color: rgb(56, 56, 56);
-  box-shadow: .5rem 1rem rgb(175, 175, 175);
-}
+  .image {
+    width: 30vw;
+    height: 30vw;
+  }
 
-.caption {
-  color: #ededed;
-  text-align: center;
+  img {
+    margin: 1rem;
+    text-align: center;
+    width: 29vw;
+  }
+  
+  .content {
+    float: left;
+    margin: .8rem .5rem;
+    width: 31vw;
+    background-color: rgb(56, 56, 56);
+    box-shadow: .5rem 1rem rgb(175, 175, 175);
+    align-items: center;
+  }
+  
+  .caption {
+    padding: .5rem;
+    margin: .2rem;
+    color: #ededed;
+    text-align: center;
+    font-size: 1.1vw;
+  }
+
+}
+/*END Computer Layout*/
+
+/*Tablet Layout*/
+@media screen and (max-width: 1049px) {
+  
+  .image {
+    width: 49vw;
+    height: 45vw;
+  }
+
+  img {
+    margin: 1rem;
+    text-align: center;
+    width: 43vw;
+  }
+
+  .content {
+    float: left;
+    margin: .8rem .5rem;
+    width: 46vw;
+    background-color: rgb(56, 56, 56);
+    box-shadow: .5rem 1rem rgb(175, 175, 175);
+    align-items: center;
+  }
+
+  .caption {
+    padding: .5rem;
+    margin: .2rem;
+    color: #ededed;
+    text-align: center;
+    font-size: 1.5vw;
+  }
+
+}
+/*END TABLET LAYOUT*/
+
+/*MOBILE MODE*/
+@media screen and (max-width: 640px) {
+
+  .image {
+    width: 90vw;
+    height: 80vw;
+  }
+
+  img {
+    margin: 1rem;
+    text-align: center;
+    width: 80vw;
+  }
+
+  .content {
+    float: left;
+    margin: .8rem .5rem;
+    width: 87vw;
+    background-color: rgb(56, 56, 56);
+    box-shadow: .5rem 1rem rgb(175, 175, 175);
+    align-items: center;
+  }
+
+  .caption {
+    padding: .5rem;
+    margin: .2rem;
+    color: #ededed;
+    text-align: center;
+    font-size: 3vw;
+  }
+
 }
 
 #menuToggle

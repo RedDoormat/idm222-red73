@@ -1,0 +1,22 @@
+/* Style Sheet for Portfolio website, Contact Page */
+
+* { /*Helps with math of margin and padding*/
+    box-sizing: border-box;
+}
+
+@font-face { /*Fonts*/
+    font-family: 'Arvo';
+    src: url('fonts/Arvo.woff') format('woff');
+}
+
+html { /*More font stuff*/
+    font-family: Arvo, serif;
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    background-image: url(images/dumontr_web-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
