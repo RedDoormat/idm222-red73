@@ -21,6 +21,165 @@ body {
     background-attachment: fixed;
 }
 
+li a.social { /*social media icons*/
+  display: block;
+  color: #000000;
+  margin: .5rem 2rem;
+  text-decoration: none;
+}
+
+li a.social:hover {
+  color: #ffffff;
+}
+
+li a.contactme {
+  display: block;
+  color: #000000;
+  margin: .75rem 6rem;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul.social {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+li.social {
+  display: inline-block;
+  text-align: center;
+}
+
+li.social:hover {
+  background-color: grey;
+}
+
+/*Computer Mode*/
+@media screen and (min-width: 1050px) {
+  .info {
+    display: flex;
+  }
+
+  .photo {
+    flex: 50%;
+    width: 50vw;
+    height: 35vw;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .aboutme {
+    flex: 50%;
+  }
+
+  p.aboutme {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 120%;
+    line-height: 1.5rem;
+  }
+
+  img.me {
+    width: 30vw;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: rgb(56, 56, 56);
+    box-shadow: .5rem 1rem rgb(175, 175, 175);
+  }
+  
+  .info {
+    min-height: calc(86.75vh);
+  }
+  
+}
+/*END COMPUTER MODE*/
+
+/*Tablet Mode*/
+@media screen and (max-width: 1049px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo {
+    flex: 40vw;
+    width: 70vw;
+    height: 40vw;
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  p.aboutme {
+    flex: 60vw;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 110%;
+    line-height: 1.5rem;
+  }
+
+  img.me {
+    width: 35vw;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: rgb(56, 56, 56);
+    box-shadow: .5rem 1rem rgb(175, 175, 175);
+  }
+
+  .info {
+    min-height: calc(86.75vh);
+  }
+  
+}
+/*END TABLET MODE*/
+
+/*MOBILE MODE*/
+@media screen and (max-width: 640px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo {
+    flex: 70%;
+    width: 70vw;
+    height: 40vw;
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  p.aboutme {
+    flex: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 100%;
+    line-height: 1.5rem;
+  }
+
+  img.me {
+    width: 60vw;
+    padding: 1rem;
+    margin: .5rem;
+    background-color: rgb(56, 56, 56);
+    box-shadow: .5rem 1rem rgb(175, 175, 175);
+  }
+
+  .info {
+    min-height: calc(91vh);
+  }
+}
+/*END MOBILE MODE*/
+
+/*Menu*/
 #menuToggle
 {
   display: block;
